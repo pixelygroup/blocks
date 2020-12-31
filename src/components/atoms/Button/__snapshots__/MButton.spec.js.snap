@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PxButton it passes children through 1`] = `<button class="px-button px-button--primary">test</button>`;
+
+exports[`PxButton it renders the header correctly when no props are passed 1`] = `<button class="px-button px-button--primary"></button>`;
+
+exports[`PxButton tag can be updated from default 1`] = `<a class="px-button px-button--primary"></a>`;

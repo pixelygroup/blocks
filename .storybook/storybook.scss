@@ -1,0 +1,8 @@
+$blocks-asset-path: "../src/assets";
+$blocks-font-path: "../src/assets/fonts";
+
+body {
+  margin: 20px;
+}
+
+@import "@/sass/ui/ui.scss";

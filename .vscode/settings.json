@@ -1,0 +1,30 @@
+{
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
+  // Disable builtin CSS validators, as stylelint will do this for us
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "jest.pathToJest": "npm run test:unit --",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+}

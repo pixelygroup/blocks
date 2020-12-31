@@ -1,0 +1,38 @@
+// ******************** //
+//      GRID            //
+// ******************** //
+
+$screen-xxs: 375px;
+$screen-xs: 768px;
+$screen-sm: 1024px;
+$screen-md: 1280px;
+$screen-lg: 1440px;
+$screen-xl: 1920px;
+
+$screen-xxs-max: ($screen-xs - 1) !default;
+$screen-xs-max: ($screen-sm - 1) !default;
+$screen-sm-max: ($screen-md - 1) !default;
+$screen-md-max: ($screen-lg - 1) !default;
+$screen-lg-max: ($screen-xl - 1) !default;
+
+$gutter: 40px;
+$gutter-sm: 20px;
+$gutter-xs: 12px; // Used for grid gutters
+
+$container-xl: 1640px;
+$container-lg: 1280px;
+$container-md: 1175px;
+$container-sm: 956px;
+$container-xs: 700px;
+$container-xxs: 500px;
+
+// ******************** //
+//       Z-INDEX        //
+// ******************** //
+
+$zindex-header: 1020 !default;
+$zindex-dropdown: 1030 !default;
+$zindex-sticky: 1030 !default;
+$zindex-nav-overlay: 1000 !default;
+$zindex-modal-overlay: 1040 !default;
+$zindex-modal: 1050 !default;

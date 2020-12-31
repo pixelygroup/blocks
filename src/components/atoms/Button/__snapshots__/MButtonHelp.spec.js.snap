@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PxButtonHelp it renders correctly 1`] = `
+<button data-qa-locator="helper-button" aria-label="Help Button" class="px-button-help">
+  ?
+</button>
+`;

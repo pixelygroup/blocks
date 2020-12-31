@@ -1,0 +1,104 @@
+{
+  "name": "blocks",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Vue components library",
+  "author": {
+    "name": "Lubos Krystynek"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint --no-fix",
+    "build-storybook": "build-storybook --quiet -c .storybook",
+    "inspect": "vue-cli-service inspect",
+    "lint:css": "stylelint \"src/**/*.{vue,htm,html,css,sss,less,scss,sass}\"",
+    "lint:css:fix": "npm run lint:css -- --fix",
+    "lint:fix": "vue-cli-service lint",
+    "prepare": "node scripts/export-components.js",
+    "storybook": "start-storybook -s ./public",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "stylelint-check": "stylelint-config-prettier-check",
+    "test:coverage": "vue-cli-service test:unit --coverage",
+    "test:unit:updatesnapshots": "npm run test:unit -- -u",
+    "version-x": "version-x",
+    "version-major": "version-x -m",
+    "version-minor": "version-x -i",
+    "version-patch": "version-x -p"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@pixelygroup/eslint-config-px": "^0.3.0",
+    "@pixelygroup/version-x": "^0.3.3",
+    "@storybook/addon-a11y": "6.1.11",
+    "@storybook/addon-actions": "6.1.11",
+    "@storybook/addon-docs": "6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-knobs": "6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/addon-viewport": "6.1.11",
+    "@storybook/addons": "6.1.11",
+    "@storybook/theming": "6.1.11",
+    "@storybook/vue": "^6.1.11",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "4.5.4",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^9.5.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "stylelint": "^12.0.0",
+    "vue-cli-plugin-storybook": "~2.0.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "blocks@0.0.1",
+  "bugs": {
+    "url": "https://github.com/pixelygroup/blocks/issues"
+  },
+  "homepage": "https://github.com/pixelygroup/blocks#readme",
+  "keywords": [
+    "Vue",
+    "Storybook",
+    "components",
+    "blocks",
+    "library",
+    "framework"
+  ],
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelygroup/blocks.git"
+  }
+}

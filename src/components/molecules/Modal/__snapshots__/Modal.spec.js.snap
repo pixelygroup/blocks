@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+<div>
+  <px-overlay-stub showoverlay="true"></px-overlay-stub>
+  <div role="dialog" aria-modal="true" tabindex="-1" class="px-modal px-modal--center" name="fade">
+    <div role="document" tabindex="0" class="px-modal__dialog"><button aria-label="Dismiss modal" data-qa-locator="modal-close-btn" type="button" class="px-modal__close"><span class="sr-only">Close modal</span></button>
+      <p>This is the header</p>
+      <p>This is the body</p>
+      <p>This is the body text</p>
+    </div>
+  </div>
+</div>
+`;

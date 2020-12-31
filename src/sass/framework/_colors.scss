@@ -1,0 +1,28 @@
+// ******************** //
+//        COLORS        //
+// ******************** //
+
+// Primary
+$color-primary: #0e93ed !default;
+$color-primary-darker: #0963A0 !default;
+$color-secondary: #506b57 !default;
+
+// Greys
+$color-grey-dark: #3e4756 !default;
+$color-grey-mid: #8895aa !default;
+$color-grey-light: #e6ebf3 !default;
+
+// States
+$color-error: #a20212 !default; // Error
+$color-success: #038351 !default; // Success
+$color-warning: #e66834 !default; // Success
+
+// Others
+$color-white: #fff !default; // Air
+$color-black: #000 !default;
+$color-black-overlay: rgba(0, 0, 0, 0.08); // Black overlay for image hovers
+
+// Functional
+$color-text: $color-black !default; // Global text colour
+$color-link: $color-primary !default; // Global text link colour
+$color-link-hover: $color-primary-darker !default;
